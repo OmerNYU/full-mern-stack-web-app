@@ -86,7 +86,7 @@ app.get('/about', (req, res) => {
       'I enjoy working on projects that involve both front-end and back-end development, and I like understanding how different parts of a software system connect together.',
       'Outside of coursework, I enjoy building technical projects, learning new tools, and improving my skills as a developer.',
     ],
-    imageUrl: 'https://via.placeholder.com/300',
+    imageUrl: 'http://localhost:7002/omer_pic.jpg',
   })
 })
 

@@ -78,5 +78,17 @@ app.post('/messages/save', async (req, res) => {
   }
 })
 
+app.get('/about', (req, res) => {
+  res.json({
+    title: 'About Us',
+    paragraphs: [
+      'My name is Omer Hayat, and I am a Computer Science student interested in software engineering, machine learning, and building useful technology.',
+      'I enjoy working on projects that involve both front-end and back-end development, and I like understanding how different parts of a software system connect together.',
+      'Outside of coursework, I enjoy building technical projects, learning new tools, and improving my skills as a developer.',
+    ],
+    imageUrl: 'https://via.placeholder.com/300',
+  })
+})
+
 // export the express app we created to make it available to other modules
 module.exports = app // CommonJS export style!
